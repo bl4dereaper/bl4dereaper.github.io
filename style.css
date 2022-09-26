@@ -1,0 +1,59 @@
+*,
+:before,
+:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    margin: 2rem;
+    letter-spacing: .15rem;
+    font-size: 62.5%;
+    border-style: double;
+    background-color: blanchedalmond;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+h1,
+h2,
+h3 {
+    border-style: groove;
+    background-color: aquamarine;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-indent: 6rem;
+}
+
+h3 {
+    text-indent: 10rem;
+}
+
+p {
+    text-indent: 4rem;
+    text-align: justify;
+    margin: 2rem;
+}
+
+ul {
+    margin: 3rem;
+    text-indent: -2rem;
+    list-style: circle;
+    list-style-position: inside;
+}
+
+table {
+    width: 100%;
+    table-layout: auto;
+    border-spacing: 2rem;
+    outline-style: dotted;
+}
