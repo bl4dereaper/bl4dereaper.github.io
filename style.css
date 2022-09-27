@@ -58,3 +58,40 @@ table {
     border-spacing: 2rem;
     outline-style: dotted;
 }
+
+@media(max-width: 750px) {
+    td {
+        display: block;
+    }
+
+    html {
+        margin: .5rem;
+        letter-spacing: .05rem;
+        align-items: center;
+        text-justify: left;
+    }
+
+    h2 {
+        text-align: center;
+        text-indent: 0rem;
+    }
+
+    h3 {
+        
+        text-indent: 0rem;
+    }
+
+    p {
+        text-indent: 1.5rem;
+        text-align: justify;
+        margin: 2rem;
+    }
+
+    ul {
+        margin: 2.5rem;
+        text-indent: -2rem;
+        list-style: circle;
+        list-style-position: inside;
+    }
+
+}
